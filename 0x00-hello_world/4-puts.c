@@ -1,7 +1,7 @@
 #include<stdio.h>
-/*
-starting with main function
-when it return 0 that means is valid
+/**
+*main - Betty description
+*Return: 0 if it is valid.
 */
 int main(void)
 {
