@@ -1,4 +1,9 @@
 #include<stdio.h>
+/**
+* main - starting function
+* Return: 0 is valid
+*/
+
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
