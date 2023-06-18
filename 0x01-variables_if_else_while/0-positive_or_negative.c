@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - the main function 
+* main - the function 
 *
-*Description: code that give if the random number selected by the machine is positive or negative or equal 0
+*Description: positive or negatige condition
 *
-*return:0 is valid 
-*
+*return: is valid 
 */
 
 int main(void)
@@ -17,10 +16,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
-	printf("%d the number is positive\n",n);
+	      printf("%d the number is positive\n",n);
 	else if (n==0)
-	printf("%d the number is zero\n",n);
+	      printf("%d the number is zero\n",n);
 	else
-	printf("%d the number is negative\n",n);
+	      printf("%d the number is negative\n",n);
 	return (0);
 }
