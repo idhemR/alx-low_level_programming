@@ -8,8 +8,8 @@
 int main(void)
 {
 
-
-for (char ZA = 'z'; ZA >= 'a'; ZA--)
+char ZA;
+for (ZA = 'z'; ZA >= 'a'; ZA--)
 {
 putchar(ZA);
 }
