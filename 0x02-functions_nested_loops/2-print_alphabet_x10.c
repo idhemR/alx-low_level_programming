@@ -14,6 +14,6 @@ for (n = 0; n <= 9; n++)
 for (AZ = 'a'; AZ <= 'z'; AZ++)
 _putchar(AZ);
 
- _putchar('\n');
+_putchar('\n');
 }
 }
