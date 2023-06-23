@@ -3,27 +3,27 @@
 /**
 * print_line - print underscore
 *
-* @a : nbr of _
+* @n : nbr of _
 *
 * return : void
 *
 */
 
-void print_line(int a)
+void print_line(int n)
 {
-int a = 20;
-int b = 0;
-if (a == 0)
+if (n <= 0)
+{
 _putchar('\n');
+}
 else
 {
-while (b < a)
+int i;
+
+for (i = 1; i <= n; i++)
 {
-
-_putchar('_\n');
-b++;
-
+_putchar('_');
 }
+_putchar('\n');
 }
 
 }
