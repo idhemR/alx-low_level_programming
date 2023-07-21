@@ -7,8 +7,7 @@
  * @separator: separate the strings
  * @n: The number of value
  * @...: the values
- * Description: If separator is NULL, it is not printed.
- *              If one of the strings if NULL, (nil) is printed
+ * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
