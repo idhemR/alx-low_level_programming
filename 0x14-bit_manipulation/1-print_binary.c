@@ -6,8 +6,6 @@
  *
  * @n : the number taken in value
  *
- * return : binary
- *
  */
 
 
@@ -20,6 +18,7 @@ while (len <= n)
 len <<= 1;
 if (len > n)
 len >>= 1;
+
 while (len)
 {
 if (n & len)
