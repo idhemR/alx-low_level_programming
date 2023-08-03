@@ -11,23 +11,26 @@
 
 void print_binary(unsigned long int n)
 {
-unsigned long int len = 1;
-if (n == 0)
-	_putchar('0');
-while (len <= n)
-len <<= 1;
-if (len > n)
-len >>= 1;
-
-while (len)
 {
-if (n & len)
-_putchar('1');
-else
-_putchar('0');
-mask >>= 1;
+	int i, count = 0;
+	unsigned long int current;
 
+	for (i = 63; i >= 0; i--)
+	{
+		current = n >> i;
+
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
+	}
+	if (!count)
+		_putchar('0');
 }
+
 
 
 
